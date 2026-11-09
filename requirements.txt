@@ -1,0 +1,18 @@
+# Core Computer Vision, Deep Learning, Geometry, and Tracking Dependencies
+ultralytics==8.4.0
+torch==2.6.0
+torchvision==0.21.0
+opencv-python==4.11.0.86
+numpy==2.1.3
+shapely==2.1.2
+scipy==1.15.2
+supervision==0.25.1
+pytest==8.3.4
+
+# ============================================================================
+# ROS 2 Dependencies (Documented separately - install via system ROS 2 apt/rosdep)
+# Required only when running with `--source isaac` for NVIDIA Isaac Sim live ROS 2 feed:
+#   - rclpy (ROS 2 Python client library, e.g., ros-humble-rclpy / ros-jazzy-rclpy)
+#   - sensor_msgs (ros-humble-sensor-msgs / ros-jazzy-sensor-msgs)
+#   - cv_bridge (ros-humble-cv-bridge / ros-jazzy-cv-bridge, optional; native buffer decoding is also supported)
+# ============================================================================
